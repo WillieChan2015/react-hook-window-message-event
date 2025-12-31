@@ -3,7 +3,7 @@
 Simply run the below. Replace `project_name`
 
 ```
-npx @rottitime/create-starter-kit project_name
+npx @williechen/create-starter-kit project_name
 ```
 
 This will create, and install I-dot-ai frontend framework incorporating libraries and rules for the team coding guidelines:

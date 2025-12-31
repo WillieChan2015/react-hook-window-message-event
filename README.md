@@ -15,7 +15,7 @@ Full source code for the above exanmple is also available at:
 ## Installation
 
 ```
-npm i @rottitime/react-hook-message-event
+npm i @williechen/react-hook-message-event
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ The two functionalities of this this hook.
 Just ensure you first import your hook into your component.
 
 ```js
-import useMessage from '@rottitime/react-hook-message-event'
+import useMessage from '@williechen/react-hook-message-event'
 ```
 
 ### Listening for messages

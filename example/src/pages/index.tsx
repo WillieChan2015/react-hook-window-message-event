@@ -1,4 +1,4 @@
-import useMessage from '@rottitime/react-hook-message-event'
+import useMessage from '@williechen/react-hook-message-event'
 import { useState } from 'react'
 
 export default function ParentPage() {

@@ -1,6 +1,6 @@
 {
-  "name": "@rottitime/react-hook-message-event",
-  "version": "1.0.10",
+  "name": "@williechen/react-hook-message-event",
+  "version": "1.0.1",
   "description": "Hook for listening to window message event and posting message back to source",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,8 +13,6 @@
     "test:all": "npm test && npm run lint",
     "build": "tsc",
     "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
@@ -27,13 +25,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rottitime/react-hook-window-message-event.git"
+    "url": "git+https://github.com/WillieChan2015/react-hook-window-message-event.git"
   },
   "bugs": {
-    "url": "https://github.com/rottitime/react-hook-window-message-event/issues"
+    "url": "https://github.com/WillieChan2015/react-hook-window-message-event/issues"
   },
-  "homepage": "https://github.com/rottitime/react-hook-window-message-event#readme",
-  "author": "rottitime",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/WillieChan2015/react-hook-window-message-event#readme",
+  "author": "Willie Chan",
   "license": "ISC",
   "peerDependencies": {
     "react": ">=17.0.0"

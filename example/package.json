@@ -1,5 +1,5 @@
 {
-  "name": "@rottitime/create-starter-kit",
+  "name": "@williechen/create-starter-kit",
   "version": "1.0.3",
   "license": "SEE LICENSE IN LICENSE",
   "homepage": "https://github.com/rottitime/frontend-starterkit#readme",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.2",
-    "@rottitime/react-hook-message-event": "^1.0.10",
+    "@williechen/react-hook-message-event": "^1.0.10",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
