@@ -1,5 +1,7 @@
 # React hook: Message event
 
+> forked from [rottitime/react-hook-window-message-event](https://github.com/rottitime/react-hook-window-message-event) and fixed the iframe communication issue.
+
 React hook to monitor messages incoming and also allow you to post out.
 Utilising and simplifing the WebAPI for [Window.postMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) and [Window: message event](https://developer.mozilla.org/en-US/docs/Web/API/Window/message_event)
 
